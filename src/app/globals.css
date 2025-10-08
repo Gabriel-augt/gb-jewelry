@@ -8,6 +8,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --font-cormorant: var(--font-cormorant-upright);
   --font-eb-garamond: var(--font-eb-garamond);
   --font-inter: var(--font-inter);
 }

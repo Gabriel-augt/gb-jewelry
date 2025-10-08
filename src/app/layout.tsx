@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
-import { EB_Garamond, Inter } from "next/font/google";
+import { EB_Garamond, Inter, Cormorant_Upright } from "next/font/google";
 import "./globals.css";
+
+const cormorant = Cormorant_Upright({
+  subsets: ["latin"],
+  weight: ["300", "400","500","600","700"],
+  variable: "--font-cormorant-upright",
+});
 
 const garamond = EB_Garamond({
   subsets: ["latin"],
@@ -30,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${garamond.variable} ${inter.variable}`}>
+      <body className={`${cormorant.variable} ${garamond.variable} ${inter.variable}`}>
         {children}
       </body>
     </html>
