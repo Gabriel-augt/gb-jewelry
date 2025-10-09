@@ -4,7 +4,7 @@ import HeroButton from "./HeroButton";
 export default function Hero() {
     return (
         <main>
-            <section className="flex justify-evenly items-center w-full h-screen bg-white border">
+            <section className="flex justify-evenly items-center w-full h-screen bg-white">
                 <div className="flex flex-col justify-center items-center text-black">
                     <div className="relative w-[500px] h-[500px]">
                     <Image src={"/flower-design-1.svg"} alt={"Flower Design"} fill/>
