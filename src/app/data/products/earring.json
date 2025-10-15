@@ -1,0 +1,40 @@
+[
+  {
+    "id": 13,
+    "name": "Aurum Claritas",
+    "price": "$4120",
+    "image": "/shop/earring-1.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Lunae Splendor",
+    "price": "$3478",
+    "image": "/shop/earring-2.jpg",
+    "image2": "/shop/earring-red-2.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Vita Serenus",
+    "price": "$3895",
+    "image": "/shop/earring-3.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Stella Amoris",
+    "price": "$5260",
+    "image": "/shop/earring-4.jpg",
+    "image2": "/shop/earring-blue-4.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Regina Lux",
+    "price": "$3987",
+    "image": "/shop/earring-5.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Virtus Aeterna",
+    "price": "$4523",
+    "image": "/shop/earring-6.jpg"
+  }
+]

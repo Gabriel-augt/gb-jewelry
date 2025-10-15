@@ -1,0 +1,38 @@
+[
+  {
+    "id": 7,
+    "name": "Gloria Caeli",
+    "price": "$5254",
+    "image": "/shop/necklace-1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Regina Noctis",
+    "price": "$3120",
+    "image": "/shop/necklace-2.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Natura Divina",
+    "price": "$4899",
+    "image": "/shop/necklace-3.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Anima Clara",
+    "price": "$3580",
+    "image": "/shop/necklace-4.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Corona Solis",
+    "price": "$3765",
+    "image": "/shop/necklace-5.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Tempus Rosae",
+    "price": "$4410",
+    "image": "/shop/necklace-6.jpg"
+  }
+]

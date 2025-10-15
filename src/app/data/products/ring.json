@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Vera Lux",
+    "price": "$3,254",
+    "image": "/shop/ring-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Vita Nova",
+    "price": "$4,128",
+    "image": "/shop/ring-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Astra Nova",
+    "price": "$5,986",
+    "image": "/shop/ring-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ignis Ardens",
+    "price": "$3,472",
+    "image": "/shop/ring-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Magnus Opus",
+    "price": "$3,879",
+    "image": "/shop/ring-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Luna Clara",
+    "price": "$6,215",
+    "image": "/shop/ring-6.jpg"
+  }
+]

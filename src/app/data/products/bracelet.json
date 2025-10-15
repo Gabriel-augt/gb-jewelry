@@ -1,0 +1,38 @@
+[
+  {
+    "id": 19,
+    "name": "Aurea Vinculum",
+    "price": "$3278",
+    "image": "/shop/bracelet-1.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Luna Circulus",
+    "price": "$3540",
+    "image": "/shop/bracelet-2.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Virtus Manus",
+    "price": "$3895",
+    "image": "/shop/bracelet-3.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Stella Nexus",
+    "price": "$4120",
+    "image": "/shop/bracelet-4.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Regina Catena",
+    "price": "$3675",
+    "image": "/shop/bracelet-5.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Fortuna Aurum",
+    "price": "$3980",
+    "image": "/shop/bracelet-6.jpg"
+  }
+]
