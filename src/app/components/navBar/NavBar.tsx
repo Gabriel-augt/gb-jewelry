@@ -5,7 +5,7 @@ import DropdownItem from "./DropdownItem";
 
 export default function NavBar() {
   return (
-    <nav className="fixed font-cormorant flex justify-center items-center w-full z-10 text-black border-b border-b-zinc-100">
+    <nav className="fixed font-cormorant flex justify-center items-center w-full z-10 text-black border-b border-b-zinc-100 invisible lg:visible">
       <div className="flex flex-row justify-around items-center w-full py-3 backdrop-blur-3xl">
         <div className="inline-flex justify-center items-center gap-2">
           <Gem strokeWidth={1} size={42} />
