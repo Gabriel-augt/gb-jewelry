@@ -12,10 +12,10 @@ export default function LatestCollectionsontent() {
   const firsBracelet = bracelets[0];
   return (
     <div className="flex flex-col items-center justify-center w-full h-max pt-6 pb-28 gap-20">
-      <div className="absolute right-0 -translate-y-64 max-xl:-translate-y-[520px] max-xl:w-80 max-lg:w-64 max-sm:-translate-y-[930px]">
+      <div className="absolute right-0 min-xl:-translate-y-64 min-[611px]:-translate-y-[520px] max-xl:w-80 max-lg:w-60 max-sm:-translate-y-[930px]">
         <Image src={"flower-design-2.svg"} alt="Flower design" width={410} height={345} />
       </div>
-      <div className="absolute right-0 -translate-y-72 max-xl:-translate-y-[520px] max-lg:w-64 max-sm:-translate-y-[940px]">
+      <div className="absolute right-0  min-xl:-translate-y-72 min-[611px]:-translate-y-[520px] max-lg:w-60 max-sm:-translate-y-[940px]">
         <Image src={"particles-1.svg"} alt="Particles" width={410} height={345} />
       </div>
       <div className="flex flex-col gap-4 z-10">
