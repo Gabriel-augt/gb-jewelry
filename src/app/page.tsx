@@ -4,6 +4,7 @@ import NavBar from "./components/navBar/NavBar";
 import LatestCollections from "./latestCollections/LatestCollections";
 import OneAndOnly from "./components/oneAndOnly/OneAndOnly";
 import Shop from "./components/shop/Shop";
+import FindUs from "./components/findUs/FindUs";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <LatestCollections />
       <OneAndOnly />
       <Shop />
+      <FindUs />
     </div>
   );
 }
