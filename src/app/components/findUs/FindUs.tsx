@@ -2,7 +2,7 @@ import FindUsContent from "./FindUsContent";
 
 export default function FindUs () {
     return (
-        <div>
+        <div id="contact">
             <FindUsContent />
         </div>
     )
