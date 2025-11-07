@@ -1,19 +1,12 @@
 import Image from "next/image";
 import OneAndOnlyButton from "./OneAndOnlyButton";
+import OneOnlyFlowerDesign from "./OneOnlyFlowerDesign";
 
 export default function OneAndOnlyContent() {
   return (
-    <section
-      className="flex flex-row items-center justify-center gap-56 w-full h-max pt-6 pb-28
-        max-xl:flex-col-reverse max-xl:gap-12">
-      <div className="absolute left-0 -translate-y-60 max-xl:-translate-y-[520px]
-      max-xl:w-80 max-lg:w-60 max-sm:-translate-y-[410px]">
-        <Image src={"flower-design-3.svg"} alt="Flower design" width={410} height={345}/>
-      </div>
-      <div className="absolute left-0 -translate-y-72 max-xl:-translate-y-[520px]
-      max-lg:w-64 max-sm:-translate-y-[420px] max-sm:w-48">
-        <Image src={"particles-2.svg"} alt="Particles" width={410} height={345}/>
-      </div>
+    <section className="flex flex-row items-center justify-center gap-56 w-full h-max
+    py-20 max-xl:flex-col-reverse max-xl:gap-12">
+      <OneOnlyFlowerDesign />
       <div className="relative max-xl:-translate-x-7 max-sm:-translate-x-16">
         <Image className="rounded-lg rounded-br-[120px] shadow-xl max-md:w-64 max-sm:w-56"
           src={"/one-only-1.png"} alt="Woman with earring" width={360} height={600}/>

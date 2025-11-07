@@ -1,14 +1,11 @@
 import Image from "next/image";
+import FindUsFlowerDesign from "./FindUsFlowerDesign";
 
 export default function FindUsContent () {
     return (
-        <section
-              className="flex flex-row items-center justify-center gap-56 w-full h-max py-32
-                max-xl:flex-col-reverse max-xl:gap-12">
-              <div className="absolute right-0 -translate-y-[380px] min-[395px]:-translate-y-[330px]
-              min-sm:-translate-y-[420px] min-xl:-translate-y-64 max-xl:w-80 max-lg:w-60">
-                <Image src={"flower-design-4.svg"} alt="Flower design" width={410} height={345}/>
-              </div>
+        <section className="flex flex-row items-center justify-center gap-56 w-full
+        h-max py-20 max-xl:flex-col-reverse max-xl:gap-12">
+              <FindUsFlowerDesign />
               <div className="relative -translate-x-14">
                 <Image className="rounded-lg rounded-br-[120px] shadow-xl max-md:w-64 max-sm:w-52"
                   src={"/find-us-1.png"} alt="Woman with earring" width={360} height={600}/>

@@ -3,8 +3,8 @@ import AboutButton from "./AboutButton";
 
 export default function AboutContent () {
     return (
-        <section className="flex flex-row items-center justify-center gap-12 w-full h-max pt-6 pb-28
-        max-xl:flex-col">
+        <section className="flex flex-row items-center justify-center gap-12 w-full h-max pb-20 pt-40
+        max-xl:flex-col max-lg:py-40">
             <div className="flex flex-col gap-4 px-6">
                 <h2 className="font-inter font-light text-lg">
                     Sobre nós
