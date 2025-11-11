@@ -7,38 +7,34 @@ interface ShopCardProps {
   imageUrl: string;
 }
 
-export default function ShopCard({name, price, imageUrl}: ShopCardProps) {
+export default function ShopCard({ name, price, imageUrl }: ShopCardProps) {
   return (
     <div>
-      <div className="relative w-64 h-96 rounded-bl-xl rounded-tr-4xl max-[395px]:w-48 min-[900px]:shadow-sm">
+      <div className="relative w-64 h-max rounded-b-3xl rounded-tr-4xl max-[395px]:w-56 min-[900px]:shadow-sm
+      group transition-all duration-300 ease-out hover:scale-105">
+        <button className="absolute cursor-pointer p-4 invisible group-hover:visible right-0 max-lg:visible max-lg:p-2">
+          <Heart
+            className="hover:fill-red-400 hover:stroke-0 p-2 w-10 h-10 border border-gray-200 rounded-full bg-black"
+            strokeWidth={1.5}
+            stroke="#fff"
+          />
+        </button>
         <Image
-          className="w-64 h-64 max-[395px]:w-48 max-[395px]:h-48"
+          className="w-64 h-64 max-[395px]:w-full max-[395px]:h-56"
           src={imageUrl}
           alt={name}
           width={360}
           height={360}
         />
-        <div className="flex flex-row justify-around items-center py-5">
-          <div>
-            <h2 className="text-2xl font-semibold font-eb-garamond">{name}</h2>
-            <span className="text-gray-600">{price}</span>
-          </div>
-          <div className="flex flex-col gap-3">
-            <button className="cursor-pointer">
-              <Heart
-                className="hover:fill-red-400 hover:stroke-0 p-1 w-9 h-9 border border-gray-200 rounded-md"
-                strokeWidth={1.5}
-                stroke="#99a1af"
-              />
-            </button>
-            <button className="cursor-pointer">
-              <ShoppingCart
-                className="hover:fill-[#99a1af] p-1 w-9 h-9 border border-gray-200 rounded-md"
-                strokeWidth={1.5}
-                stroke="#99a1af"
-              />
-            </button>
-          </div>
+        <div className="pb-3 text-center">
+          <h2 className="text-2xl font-semibold font-eb-garamond">{name}</h2>
+          <span className="text-gray-600">{price}</span>
+        </div>
+        <div className="flex items-center justify-center gap-3 font-inter rounded-b-3xl h-16 bg-black text-white cursor-pointer">
+          <button>
+            <ShoppingCart strokeWidth={1.5} stroke="#fff" />
+          </button>
+          <span>Adicionar ao carrinho</span>
         </div>
       </div>
     </div>

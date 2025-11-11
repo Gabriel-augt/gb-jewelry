@@ -7,39 +7,40 @@ interface CollectionsCardProps {
   imageUrl: string;
 }
 
-export default function LatestCollectionsCard({name, price, imageUrl}: CollectionsCardProps) {
+export default function LatestCollectionsCard({
+  name,
+  price,
+  imageUrl,
+}: CollectionsCardProps) {
   return (
     <div>
-      <div className="relative w-64">
+      <div className="relative w-64 rounded-3xl shadow-sm group transition-all duration-300 ease-out hover:scale-105">
+        <button className="absolute cursor-pointer p-4 invisible group-hover:visible right-0 max-lg:visible max-lg:p-2">
+          <Heart
+            className="hover:fill-red-400 hover:stroke-0 p-2 w-10 h-10 border border-gray-200 rounded-full bg-black"
+            strokeWidth={1.5}
+            stroke="#fff"/>
+        </button>
         <Image
-          className="rounded-bl-xl rounded-tr-4xl shadow-sm"
+          className=""
           src={imageUrl}
           alt={name}
           width={360}
           height={360}
         />
-        <div className="flex flex-row justify-around items-center py-5">
-          <div>
-            <h2 className="text-2xl font-semibold font-eb-garamond">{name}</h2>
-            <span className="text-gray-600">{price}</span>
-          </div>
-          <div className="flex flex-col gap-3">
-            <button className="cursor-pointer">
-              <Heart
-                className="hover:fill-red-400 hover:stroke-0 p-1 w-9 h-9 border border-gray-200 rounded-md"
-                strokeWidth={1.5}
-                stroke="#99a1af"
-              />
-            </button>
-            <button className="cursor-pointer">
-              <ShoppingCart
-                className="hover:fill-[#99a1af] p-1 w-9 h-9 border border-gray-200 rounded-md"
-                strokeWidth={1.5}
-                stroke="#99a1af"
-              />
-            </button>
-          </div>
+        <div className="text-center pb-3">
+          <h2 className="text-2xl font-semibold font-eb-garamond">{name}</h2>
+          <span className="text-gray-600">{price}</span>
         </div>
+        <div
+          className="flex items-center justify-center gap-3 font-inter
+          rounded-b-3xl h-16 bg-black text-white cursor-pointer w-64">
+          <button>
+            <ShoppingCart strokeWidth={1.5} stroke="#fff" />
+          </button>
+          <span>Adicionar ao carrinho</span>
+        </div>
+        <div className="flex flex-col justify-around items-center"></div>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ export default function CategoryButton({ label, isActive, onClick }: CategoryBut
   return (
     <li>
       <button onClick={onClick}
-      className={`px-3 py-1 transition-all rounded-md cursor-pointer
+      className={`px-3 py-1 transition-all rounded-bl-2xl rounded-tr-2xl cursor-pointer
         ${isActive ? "bg-black text-white" : "hover:text-gray-500"}`}>
         {label}
       </button>

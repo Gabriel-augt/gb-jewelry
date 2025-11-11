@@ -15,7 +15,7 @@ export default function LatestCollectionsontent() {
       <div className="absolute right-0 min-xl:-translate-y-64 min-sm:-translate-y-[560px] max-xl:w-80 max-lg:w-60 max-sm:-translate-y-[942px]">
         <Image src={"flower-design-2.svg"} alt="Flower design" width={410} height={345} />
       </div>
-      <div className="flex flex-col gap-4 z-10">
+      <div className="flex flex-col gap-4">
         <h2 className="font-inter font-light text-lg">
           Última coleção
         </h2>
@@ -23,7 +23,7 @@ export default function LatestCollectionsontent() {
           Mais vendidos da semana
         </h1>
       </div>
-      <section className="flex flex-row justify-center gap-16 mx-6 max-xl:w-[620px] max-xl:flex-wrap max-sm:w-auto max-sm:gap-9">
+      <section className="flex flex-row justify-center gap-16 mx-6 max-xl:w-[620px] max-xl:flex-wrap max-sm:w-auto">
         <LatestCollectionsCard name={firstRing.name} price={firstRing.price} imageUrl={firstRing.image} />
         <LatestCollectionsCard name={firstNecklace.name} price={firstNecklace.price} imageUrl={firstNecklace.image} />
         <LatestCollectionsCard name={firstEarring.name} price={firstEarring.price} imageUrl={firstEarring.image} />

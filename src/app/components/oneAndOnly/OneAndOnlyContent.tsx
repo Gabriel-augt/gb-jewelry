@@ -15,7 +15,7 @@ export default function OneAndOnlyContent() {
           max-md:w-72 max-md:h-40 min-md:h-60 max-md:-translate-y-52 max-md:translate-x-28"
           src={"/one-only-2.png"} alt="Earring and bracelet" width={400} height={300} />
       </div>
-      <div className="flex flex-col gap-4 z-10 px-6">
+      <div className="flex flex-col gap-4 px-6">
         <h2 className="font-inter font-light text-lg">Primeiro & Único</h2>
         <h1 className="font-eb-garamond text-5xl max-sm:text-3xl min-sm:w-[420px]">
           Estilo verdadeiramente único

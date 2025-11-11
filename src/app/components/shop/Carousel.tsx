@@ -54,13 +54,13 @@ export default function Carousel({ category = "ring" }: CarouselProps) {
   const translate = `translateX(-${index * stepPercent}%)`;
 
   return (
-    <div className="relative flex flex-row items-center w-full mx-auto min-[900px]:max-w-4xl">
+    <div className="relative flex flex-row items-center w-screen mx-auto min-[900px]:max-w-4xl">
       <button
         onClick={prev}
         disabled={index === 0}
         aria-label="Anterior"
         className="p-2 h-10 rounded-full shadow-md disabled:opacity-40 max-[900px]:translate-x-48
-        max-md:translate-x-32 max-sm:translate-x-12 max-[395px]:-translate-y-12 z-10">
+        max-md:translate-x-32 max-sm:translate-x-8 max-[395px]:-translate-y-12 z-10">
         <ChevronLeft />
       </button>
 
@@ -73,7 +73,7 @@ export default function Carousel({ category = "ring" }: CarouselProps) {
               key={item.id}
               className="flex-shrink-0 px-2 w-full min-[900px]:w-1/3"
               aria-hidden={false}>
-              <div className="flex items-center justify-center flex-col h-max py-1">
+              <div className="flex items-center justify-center flex-col h-max py-3">
                 <ShopCard
                   name={item.name}
                   price={item.price}
@@ -90,7 +90,7 @@ export default function Carousel({ category = "ring" }: CarouselProps) {
         disabled={index === maxIndex}
         aria-label="Próximo"
         className="p-2 h-10 rounded-full shadow-md disabled:opacity-40 max-[900px]:-translate-x-48
-        max-md:-translate-x-32 max-sm:-translate-x-12 max-[395px]:-translate-y-12 z-10">
+        max-md:-translate-x-32 max-sm:-translate-x-8 max-[395px]:-translate-y-12 z-10">
         <ChevronRight />
       </button>
     </div>

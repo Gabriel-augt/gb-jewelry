@@ -8,7 +8,7 @@ export default function Hero() {
     max-xl:flex-col max-xl:justify-center min-xl:gap-28 max-md:h-[860px]">
       <div className="flex flex-col text-black w-max px-6 max-sm:w-full">
         <h1 className="text-7xl font-cormorant font-semibold uppercase text-shadow-md
-        w-96 max-sm:text-5xl min-lg:text-8xl">
+        w-96 max-sm:text-5xl min-lg:text-8xl max-sm:w-62">
           Sinta o Glamour
         </h1>
         <span
