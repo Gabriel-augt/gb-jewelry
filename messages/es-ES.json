@@ -1,0 +1,59 @@
+{
+    "homePage": {
+        "navBar": {
+            "home": "Inicio",
+            "about": "Sobre",
+            "shop": "Tienda",
+            "ring": "Anillo",
+            "necklace": "Collar",
+            "earring": "Pendientes",
+            "bracelet": "Pulsera",
+            "contact": "Contacto"
+        },
+        "anchors": {
+            "homeAnchor": "inicio",
+            "aboutAnchor": "sobre",
+            "shopAnchor": "tienda",
+            "contactAnchor": "contacto"
+        }
+    },
+    "buttonLabels": {
+        "explore": "Explorar",
+        "addToCart": "Añadir al carrito"
+    },
+    "hero": {
+        "title": "Siente el glamour",
+        "subtitle": "Déjate envolver por el glamour y revela tu brillo interior con nuestras creaciones exclusivas."
+    },
+    "about": {
+        "aboutUs": "Acerca de nosotros",
+        "titleAbout": "Hacemos realidad la magia",
+        "contentAbout": "En nuestra joyería, nos esforzamos por ofrecer mucho más que piezas exquisitas. Con pasión por la artesanía y un gusto exquisito, te invitamos a explorar nuestras colecciones."
+    },
+    "bestsellers": {
+        "latestCollection": "Última colección",
+        "title": "Los más vendidos de la semana"
+    },
+    "firstAndOnly": {
+        "firstOnly": "First & Only",
+        "title": "Estilo verdaderamente único",
+        "contentFirstOnly": "Descubre piezas que reflejan autenticidad y elegancia. Cada joya está creada para realzar tu estilo único. Siente la diferencia de llevar algo hecho para ser único."
+    },
+    "shop": {
+        "ringCollection": "Colección de anillos",
+        "necklaceCollection": "Colección de collares",
+        "earringCollection": "Colección de pendientes",
+        "braceletCollection": "Colección de pendientes",
+        "ring": "Anillo",
+        "necklace": "Collar",
+        "earring": "Pendiente",
+        "bracelet": "Pulsera"
+    },
+    "contact": {
+        "getinTouch": "Contáctanos",
+        "title": "Encuéntranos aquí",
+        "emailList": "Únete a nuestra lista de correo",
+        "emailPlaceholder": "Introduce tu correo electrónico",
+        "emailButton": "Enviar"
+    }
+}

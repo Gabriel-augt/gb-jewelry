@@ -1,0 +1,59 @@
+{
+    "homePage": {
+        "navBar": {
+            "home": "Home",
+            "about": "About",
+            "shop": "Shop",
+            "ring": "Ring",
+            "necklace": "Necklace",
+            "earring": "Earring",
+            "bracelet": "Bracelet",
+            "contact": "Contact"
+        },
+        "anchors": {
+            "homeAnchor": "home",
+            "aboutAnchor": "about",
+            "shopAnchor": "shop",
+            "contactAnchor": "contact"
+        }
+    },
+    "buttonLabels": {
+        "explore": "Explore",
+        "addToCart": "Add to cart"
+    },
+    "hero": {
+        "title": "Feel the Glamour",
+        "subtitle": "Embrace the glamour and reveal your inner glow with our exclusive creations."
+    },
+    "about": {
+        "aboutUs": "About Us",
+        "titleAbout": "We make brilliant magic happen",
+        "contentAbout": "In our jewelry store, we strive to offer more than just exquisite pieces. With a passion for craftsmanship and an eye for elegance, we invite you to explore our collections."
+    },
+    "bestsellers": {
+        "latestCollection": "Latest Collection",
+        "title": "Best Sellers of the Week"
+    },
+    "firstAndOnly": {
+        "firstOnly": "First & Only",
+        "title": "Truly Unique Style",
+        "contentFirstOnly": "Discover pieces that reflect authenticity and elegance. Each jewel is created to highlight your unique style. Feel the difference of wearing something made to be the first and only one."
+    },
+    "shop": {
+        "ringCollection": "Ring Collection",
+        "necklaceCollection": "Necklace Collection",
+        "earringCollection": "Earring Collection",
+        "braceletCollection": "Earring Collection",
+        "ring": "Ring",
+        "necklace": "Necklace",
+        "earring": "Earring",
+        "bracelet": "Bracelet"
+    },
+    "contact": {
+        "getinTouch": "Get in touch",
+        "title": "Find us here",
+        "emailList": "Join our email list",
+        "emailPlaceholder": "Enter your email",
+        "emailButton": "Send"
+    }
+}
