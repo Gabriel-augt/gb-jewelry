@@ -1,5 +1,6 @@
 import { Heart, ShoppingCart } from "lucide-react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface ShopCardProps {
   name: string;
@@ -8,6 +9,7 @@ interface ShopCardProps {
 }
 
 export default function ShopCard({ name, price, imageUrl }: ShopCardProps) {
+  const t = useTranslations('buttonLabels');
   return (
     <div>
       <div className="relative w-64 h-max rounded-b-3xl rounded-tr-4xl max-[395px]:w-56 min-[900px]:shadow-sm
@@ -34,7 +36,7 @@ export default function ShopCard({ name, price, imageUrl }: ShopCardProps) {
           <button>
             <ShoppingCart strokeWidth={1.5} stroke="#fff" />
           </button>
-          <span>Adicionar ao carrinho</span>
+          <span>{t('addToCart')}</span>
         </div>
       </div>
     </div>

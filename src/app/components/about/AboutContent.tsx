@@ -1,21 +1,21 @@
 import Image from "next/image";
 import AboutButton from "./AboutButton";
+import { useTranslations } from "next-intl";
 
 export default function AboutContent () {
+    const t = useTranslations('about');
     return (
         <section className="flex flex-row items-center justify-center gap-12 w-full h-max pb-20 pt-40
         max-xl:flex-col max-lg:py-40">
             <div className="flex flex-col gap-4 px-6">
                 <h2 className="font-inter font-light text-lg">
-                    Sobre nós
+                    {t('aboutUs')}
                 </h2>
                 <h1 className="font-eb-garamond text-5xl max-sm:text-3xl min-sm:w-96">
-                    Nós fazemos mágica brilhante acontecer
+                    {t('titleAbout')}
                 </h1>
                 <p className="font-inter font-light text-lg max-sm:text-base min-sm:w-64">
-                    Em nossa joalheria, buscamos oferecer mais do que apenas peças requintadas.
-                    Com paixão pelo artesanato e um olhar para a elegância, convidamos você a explorar nossas
-                    coleções.
+                    {t('contentAbout')}
                 </p>
                 <AboutButton />
             </div>

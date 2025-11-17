@@ -1,20 +1,22 @@
 import Image from "next/image";
 import HeroButton from "./HeroButton";
 import HomeFlowerDesign from "./HomeFlowerDesign";
+import { useTranslations } from "next-intl";
 
 export default function Hero() {
+  const t = useTranslations('hero');
   return (
     <main className="inline-flex items-center justify-evenly h-screen w-full gap-16
     max-xl:flex-col max-xl:justify-center min-xl:gap-28 max-md:h-[860px]">
       <div className="flex flex-col text-black w-max px-6 max-sm:w-full">
         <h1 className="text-7xl font-cormorant font-semibold uppercase text-shadow-md
         w-96 max-sm:text-5xl min-lg:text-8xl max-sm:w-62">
-          Sinta o Glamour
+          {t('titleHero')}
         </h1>
         <span
           className="font-inter font-light text-sm text-shadow-sm pt-6
           max-sm:text-sm max-sm:w-80">
-          Abrace o glamour e revele seu brilho interior com nossas criações exclusivas.
+          {t('subtitleHero')}
         </span>
         <HeroButton />
       </div>

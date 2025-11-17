@@ -1,5 +1,6 @@
 import { Heart, ShoppingCart } from "lucide-react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface CollectionsCardProps {
   name: string;
@@ -12,6 +13,7 @@ export default function LatestCollectionsCard({
   price,
   imageUrl,
 }: CollectionsCardProps) {
+  const t = useTranslations('buttonLabels');
   return (
     <div>
       <div className="relative w-64 rounded-3xl shadow-sm group transition-all duration-300 ease-out hover:scale-105">
@@ -38,7 +40,7 @@ export default function LatestCollectionsCard({
           <button>
             <ShoppingCart strokeWidth={1.5} stroke="#fff" />
           </button>
-          <span>Adicionar ao carrinho</span>
+          <span>{t('addToCart')}</span>
         </div>
         <div className="flex flex-col justify-around items-center"></div>
       </div>

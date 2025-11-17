@@ -22,8 +22,8 @@
         "addToCart": "Adicionar ao carrinho"
     },
     "hero": {
-        "title": "Sinta o Glamour",
-        "subtitle": "Abrace o glamour e revele seu brilho interior com nossas criações exclusivas."
+        "titleHero": "Sinta o Glamour",
+        "subtitleHero": "Abrace o glamour e revele seu brilho interior com nossas criações exclusivas."
     },
     "about": {
         "aboutUs": "Sobre nós",
@@ -32,18 +32,18 @@
     },
     "bestsellers": {
         "latestCollection": "Última coleção",
-        "title": "Mais vendidos da semana"
+        "titleBestsellers": "Mais vendidos da semana"
     },
     "firstAndOnly": {
         "firstOnly": "Primeiro & Único",
-        "title": "Estilo verdadeiramente único",
+        "titleFirstAndOnly": "Estilo verdadeiramente único",
         "contentFirstOnly": "Descubra peças que refletem autenticidade e elegância. Cada joia é criada para destacar o seu estilo único. Sinta a diferença de usar algo feito para ser o primeiro e o único."
     },
     "shop": {
         "ringCollection": "Coleção de Anéis",
         "necklaceCollection": "Coleção de Colares",
         "earringCollection": "Coleção de Brincos",
-        "braceletCollection": "Coleção de Brincos",
+        "braceletCollection": "Coleção de Pulseiras",
         "ring": "Anel",
         "necklace": "Colar",
         "earring": "Brinco",
@@ -51,7 +51,7 @@
     },
     "contact": {
         "getinTouch": "Entre em contanto",
-        "title": "Encontre-nos aqui",
+        "titleContact": "Encontre-nos aqui",
         "emailList": "Junte-se à nossa lista de e-mail",
         "emailPlaceholder": "Digite seu e-mail",
         "emailButton": "Enviar"
