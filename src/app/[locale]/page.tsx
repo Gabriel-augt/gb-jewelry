@@ -8,12 +8,14 @@ import Shop from "../components/shop/Shop";
 import FindUs from "../components/findUs/FindUs";
 import SubscribeEmail from "../components/subscribeEmail/SubscribeEmail";
 import Footer from "../components/footer/Footer";
+import LanguageSelector from "../components/languageToggle/LanguageSelector";
 
 export default function Home() {
   return (
     <div>
       <NavBar />
       <NavBarMobile />
+      <LanguageSelector />
       <HomePage />
       <About />
       <LatestCollections />
