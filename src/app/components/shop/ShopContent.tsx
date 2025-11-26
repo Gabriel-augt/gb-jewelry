@@ -13,7 +13,7 @@ export default function ShopContent() {
 
   return (
     <div className="flex flex-col justify-center items-center gap-10 py-20">
-      <ul className="inline-flex gap-12 text-2xl font-eb-garamond font-semibold max-sm:gap-2">
+      <ul className="inline-flex gap-12 text-2xl font-eb-garamond font-semibold max-sm:gap-2 max-sm:text-xl">
         <CategoryButton
           label={t('ring')}
           isActive={active === "ring"}

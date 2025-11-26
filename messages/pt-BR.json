@@ -23,12 +23,16 @@
     },
     "hero": {
         "titleHero": "Sinta o Glamour",
-        "subtitleHero": "Abrace o glamour e revele seu brilho interior com nossas criações exclusivas."
+        "subtitleHero": "Abrace o glamour e revele seu brilho interior com nossas criações exclusivas.",
+        "altImageOne": "Brincos na areia",
+        "altImageTwo": "Mulher com joias"
     },
     "about": {
         "aboutUs": "Sobre nós",
         "titleAbout": "Nós fazemos mágica brilhante acontecer",
-        "contentAbout": "Em nossa joalheria, buscamos oferecer mais do que apenas peças requintadas. Com paixão pelo artesanato e um olhar para a elegância, convidamos você a explorar nossas coleções."
+        "contentAbout": "Em nossa joalheria, buscamos oferecer mais do que apenas peças requintadas. Com paixão pelo artesanato e um olhar para a elegância, convidamos você a explorar nossas coleções.",
+        "altImageOne": "Mulher com colar",
+        "altImageTwo": "Brincos de ouro com cristais"
     },
     "bestsellers": {
         "latestCollection": "Última coleção",
@@ -37,7 +41,9 @@
     "firstAndOnly": {
         "firstOnly": "Primeiro & Único",
         "titleFirstAndOnly": "Estilo verdadeiramente único",
-        "contentFirstOnly": "Descubra peças que refletem autenticidade e elegância. Cada joia é criada para destacar o seu estilo único. Sinta a diferença de usar algo feito para ser o primeiro e o único."
+        "contentFirstOnly": "Descubra peças que refletem autenticidade e elegância. Cada joia é criada para destacar o seu estilo único. Sinta a diferença de usar algo feito para ser o primeiro e o único.",
+        "altImageOne": "Mulher mostrando orelha com brinco",
+        "altImageTwo": "Pulseira e brinco em escada de exibição branca"
     },
     "shop": {
         "ringCollection": "Coleção de Anéis",
@@ -54,6 +60,9 @@
         "titleContact": "Encontre-nos aqui",
         "emailList": "Junte-se à nossa lista de e-mail",
         "emailPlaceholder": "Digite seu e-mail",
-        "emailButton": "Enviar"
-    }
+        "emailButton": "Enviar",
+        "altImageOne": "Mulher com brinco e colar de ouro",
+        "altImageTwo": "Pulseira com cristais"
+    },
+    "altFlowerDesign": "Design de flores"
 }

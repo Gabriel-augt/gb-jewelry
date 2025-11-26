@@ -1,9 +1,9 @@
-import Image from "next/image";
 import rings from "@/app/data/products/ring.json";
 import necklaces from "@/app/data/products/necklace.json";
 import earrings from "@/app/data/products/earring.json";
 import bracelets from "@/app/data/products/bracelet.json";
 import LatestCollectionsCard from "./LatestCollectionsCard";
+import LatestCollectionsFlowerDesign from "./LatestCollectionsFlowerDesign";
 import { useTranslations } from "next-intl";
 
 export default function LatestCollectionsontent() {
@@ -14,9 +14,7 @@ export default function LatestCollectionsontent() {
   const t = useTranslations('bestsellers');
   return (
     <div className="flex flex-col items-center justify-center w-full h-max py-20 gap-20">
-      <div className="absolute right-0 min-xl:-translate-y-64 min-sm:-translate-y-[560px] max-xl:w-80 max-lg:w-60 max-sm:-translate-y-[942px]">
-        <Image src={"flower-design-2.svg"} alt="Flower design" width={410} height={345} />
-      </div>
+      <LatestCollectionsFlowerDesign /> 
       <div className="flex flex-col gap-4">
         <h2 className="font-inter font-light text-lg">
           {t('latestCollection')}

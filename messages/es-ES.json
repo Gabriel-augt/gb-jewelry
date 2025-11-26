@@ -23,12 +23,16 @@
     },
     "hero": {
         "titleHero": "Siente el glamour",
-        "subtitleHero": "Déjate envolver por el glamour y revela tu brillo interior con nuestras creaciones exclusivas."
+        "subtitleHero": "Déjate envolver por el glamour y revela tu brillo interior con nuestras creaciones exclusivas.",
+        "altImageOne": "Pendientes en la arena",
+        "altImageTwo": "Mujer con joyas"
     },
     "about": {
         "aboutUs": "Acerca de nosotros",
         "titleAbout": "Hacemos realidad la magia",
-        "contentAbout": "En nuestra joyería, nos esforzamos por ofrecer mucho más que piezas exquisitas. Con pasión por la artesanía y un gusto exquisito, te invitamos a explorar nuestras colecciones."
+        "contentAbout": "En nuestra joyería, nos esforzamos por ofrecer mucho más que piezas exquisitas. Con pasión por la artesanía y un gusto exquisito, te invitamos a explorar nuestras colecciones.",
+        "altImageOne": "Mujer con collar",
+        "altImageTwo": "Pendientes de oro con cristales"
     },
     "bestsellers": {
         "latestCollection": "Última colección",
@@ -37,7 +41,9 @@
     "firstAndOnly": {
         "firstOnly": "Primero & Único",
         "titleFirstAndOnly": "Estilo verdaderamente único",
-        "contentFirstOnly": "Descubre piezas que reflejan autenticidad y elegancia. Cada joya está creada para realzar tu estilo único. Siente la diferencia de llevar algo hecho para ser único."
+        "contentFirstOnly": "Descubre piezas que reflejan autenticidad y elegancia. Cada joya está creada para realzar tu estilo único. Siente la diferencia de llevar algo hecho para ser único.",
+        "altImageOne": "Mujer mostrando la oreja con un pendiente",
+        "altImageTwo": "Pulsera y pendiente sobre una escalera blanca"
     },
     "shop": {
         "ringCollection": "Colección de Anillos",
@@ -54,6 +60,9 @@
         "titleContact": "Encuéntranos aquí",
         "emailList": "Únete a nuestra lista de correo",
         "emailPlaceholder": "Introduce tu correo electrónico",
-        "emailButton": "Enviar"
-    }
+        "emailButton": "Enviar",
+        "altImageOne": "Mujer con pendientes y collar de oro",
+        "altImageTwo": "Pulsera con cristales"
+    },
+    "altFlowerDesign": "Diseño de flores"
 }

@@ -23,12 +23,16 @@
     },
     "hero": {
         "titleHero": "Feel the Glamour",
-        "subtitleHero": "Embrace the glamour and reveal your inner glow with our exclusive creations."
+        "subtitleHero": "Embrace the glamour and reveal your inner glow with our exclusive creations.",
+        "altImageOne": "Earrings in the sand",
+        "altImageTwo": "Woman with jewelry"
     },
     "about": {
         "aboutUs": "About Us",
         "titleAbout": "We make brilliant magic happen",
-        "contentAbout": "In our jewelry store, we strive to offer more than just exquisite pieces. With a passion for craftsmanship and an eye for elegance, we invite you to explore our collections."
+        "contentAbout": "In our jewelry store, we strive to offer more than just exquisite pieces. With a passion for craftsmanship and an eye for elegance, we invite you to explore our collections.",
+        "altImageOne": "Woman with necklace",
+        "altImageTwo": "Gold earrings with crystals"
     },
     "bestsellers": {
         "latestCollection": "Latest Collection",
@@ -37,7 +41,9 @@
     "firstAndOnly": {
         "firstOnly": "First & Only",
         "titleFirstAndOnly": "Truly Unique Style",
-        "contentFirstOnly": "Discover pieces that reflect authenticity and elegance. Each jewel is created to highlight your unique style. Feel the difference of wearing something made to be the first and only one."
+        "contentFirstOnly": "Discover pieces that reflect authenticity and elegance. Each jewel is created to highlight your unique style. Feel the difference of wearing something made to be the first and only one.",
+        "altImageOne": "Woman showing ear with earring",
+        "altImageTwo": "Bracelet and earring on white display ladder"
     },
     "shop": {
         "ringCollection": "Ring Collection",
@@ -54,6 +60,9 @@
         "titleContact": "Find us here",
         "emailList": "Join our email list",
         "emailPlaceholder": "Enter your email",
-        "emailButton": "Send"
-    }
+        "emailButton": "Send",
+        "altImageOne": "Woman with gold earrings and necklace",
+        "altImageTwo": "Bracelet with crystals"
+    },
+    "altFlowerDesign": "Flower design"
 }

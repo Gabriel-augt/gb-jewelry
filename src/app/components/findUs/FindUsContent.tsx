@@ -12,7 +12,7 @@ export default function FindUsContent() {
         <Image
           className="rounded-lg rounded-br-[120px] shadow-xl max-md:w-64 max-sm:w-52"
           src={"/find-us-1.png"}
-          alt="Woman with earring"
+          alt={t('altImageOne')}
           width={360}
           height={600}
         />
@@ -20,7 +20,7 @@ export default function FindUsContent() {
           className="absolute rounded-lg rounded-tl-[120px] translate-x-48 -translate-y-80
           max-md:w-72 max-md:h-40 min-md:h-60 max-md:-translate-y-48 max-md:translate-x-28"
           src={"/find-us-2.png"}
-          alt="Earring and bracelet"
+          alt={t('altImageTwo')}
           width={400}
           height={300}
         />
