@@ -75,6 +75,7 @@ export default function Carousel({ category = "ring" }: CarouselProps) {
               aria-hidden={false}>
               <div className="flex items-center justify-center flex-col h-max py-3">
                 <ShopCard
+                  id={item.id}
                   name={item.name}
                   price={item.price}
                   imageUrl={item.image}

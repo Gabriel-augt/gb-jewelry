@@ -5,6 +5,7 @@ import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { ReduxProvider } from "@/providers/ReduxProvider";
 
 const cormorant = Cormorant_Upright({
   subsets: ["latin"],
@@ -48,9 +49,11 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body className={`${cormorant.variable} ${garamond.variable} ${inter.variable}`}>
+        <ReduxProvider>
           <NextIntlClientProvider>
             {children}
           </NextIntlClientProvider>
+        </ReduxProvider>
       </body>
     </html>
   );

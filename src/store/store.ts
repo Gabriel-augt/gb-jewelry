@@ -1,0 +1,10 @@
+import { configureStore } from "@reduxjs/toolkit";
+import selectedItemsSlice from "./selectedItemsSlice";
+
+export const store = configureStore({
+  reducer: {
+    selectedItems: selectedItemsSlice,
+  },
+});
+
+export default store;

@@ -71,8 +71,12 @@ export default function NavBar() {
         </ul>
 
         <div className="inline-flex gap-7">
+          <Link href="/fav">
           <Heart />
+          </Link>
+          <Link href="/cart">
           <Handbag />
+          </Link>
         </div>
       </div>
     </nav>
