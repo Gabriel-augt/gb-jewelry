@@ -2,39 +2,63 @@
   {
     "id": 13,
     "name": "Aurum Claritas",
-    "price": "$4120",
+    "price": {
+      "priceBRL": 22023.30,
+      "priceUSD": 4120.28,
+      "priceEUR": 3539.20
+    },
     "image": "/shop/earring-1.jpg"
   },
   {
     "id": 14,
     "name": "Lunae Splendor",
-    "price": "$3478",
+    "price": {
+      "priceBRL": 18593.51,
+      "priceUSD": 3478.61,
+      "priceEUR": 2988.00
+    },
     "image": "/shop/earring-2.jpg",
     "image2": "/shop/earring-red-2.jpg"
   },
   {
     "id": 15,
     "name": "Vita Serenus",
-    "price": "$3895",
+    "price": {
+      "priceBRL": 20821.72,
+      "priceUSD": 3895.48,
+      "priceEUR": 3346.10
+    },
     "image": "/shop/earring-3.jpg"
   },
   {
     "id": 16,
     "name": "Stella Amoris",
-    "price": "$5260",
+    "price": {
+      "priceBRL": 28119.97,
+      "priceUSD": 5260.89,
+      "priceEUR": 4518.95
+    },
     "image": "/shop/earring-4.jpg",
     "image2": "/shop/earring-blue-4.jpg"
   },
   {
     "id": 17,
     "name": "Regina Lux",
-    "price": "$3987",
+    "price": {
+      "priceBRL": 21312.51,
+      "priceUSD": 3987.30,
+      "priceEUR": 3424.97
+    },
     "image": "/shop/earring-5.jpg"
   },
   {
     "id": 18,
     "name": "Virtus Aeterna",
-    "price": "$4523",
+    "price": {
+      "priceBRL": 24177.91,
+      "priceUSD": 4523.38,
+      "priceEUR": 3885.45
+    },
     "image": "/shop/earring-6.jpg"
   }
 ]

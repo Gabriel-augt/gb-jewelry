@@ -6,22 +6,23 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { ReduxProvider } from "@/providers/ReduxProvider";
+import LocaleProvider from "@/providers/LocaleProvider";
 
 const cormorant = Cormorant_Upright({
   subsets: ["latin"],
-  weight: ["300", "400","500","600","700"],
+  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-cormorant-upright",
 });
 
 const garamond = EB_Garamond({
   subsets: ["latin"],
-  weight: ["400","500","600","700","800"],
+  weight: ["400", "500", "600", "700", "800"],
   variable: "--font-eb-garamond",
 });
 
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["100","200","300","400","500","600","700","800","900"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-inter",
 });
 
@@ -51,7 +52,7 @@ export default async function RootLayout({
       <body className={`${cormorant.variable} ${garamond.variable} ${inter.variable}`}>
         <ReduxProvider>
           <NextIntlClientProvider>
-            {children}
+            <LocaleProvider>{children}</LocaleProvider>
           </NextIntlClientProvider>
         </ReduxProvider>
       </body>

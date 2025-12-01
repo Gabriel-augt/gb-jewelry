@@ -2,37 +2,61 @@
   {
     "id": 1,
     "name": "Vera Lux",
-    "price": "$3,254",
+    "price": {
+      "priceBRL": 17397.71,
+      "priceUSD": 3254.89,
+      "priceEUR": 2795.85
+    },
     "image": "/shop/ring-1.jpg"
   },
   {
     "id": 2,
     "name": "Vita Nova",
-    "price": "$4,128",
+    "price": {
+      "priceBRL": 22066.97,
+      "priceUSD": 4128.45,
+      "priceEUR": 3546.21
+    },
     "image": "/shop/ring-2.jpg"
   },
   {
     "id": 3,
     "name": "Astra Nova",
-    "price": "$5,986",
+    "price": {
+      "priceBRL": 31999.93,
+      "priceUSD": 5986.78,
+      "priceEUR": 5142.46
+    },
     "image": "/shop/ring-3.jpg"
   },
   {
     "id": 4,
     "name": "Ignis Ardens",
-    "price": "$3,472",
+    "price": {
+      "priceBRL": 18558.98,
+      "priceUSD": 3472.15,
+      "priceEUR": 2982.47
+    },
     "image": "/shop/ring-4.jpg"
   },
   {
     "id": 5,
     "name": "Magnus Opus",
-    "price": "$3,879",
+    "price": {
+      "priceBRL": 20735.19,
+      "priceUSD": 3879.29,
+      "priceEUR": 3332.19
+    },
     "image": "/shop/ring-5.jpg"
   },
   {
     "id": 6,
     "name": "Luna Clara",
-    "price": "$6,215",
+    "price": {
+      "priceBRL": 33223.53,
+      "priceUSD": 6215.70,
+      "priceEUR": 5339.10
+    },
     "image": "/shop/ring-6.jpg"
   }
 ]

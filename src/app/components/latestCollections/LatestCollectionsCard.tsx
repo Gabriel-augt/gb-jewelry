@@ -1,19 +1,29 @@
+"use client";
+
 import { Heart, ShoppingCart } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { useDispatch } from "react-redux";
+import { addItem } from "@/store/selectedItemsSlice"
+import { usePrice } from "@/hooks/usePrice";
+
+interface PriceByCurrency {
+  priceBRL: number;
+  priceUSD: number;
+  priceEUR: number;
+}
 
 interface CollectionsCardProps {
   name: string;
-  price: string;
+  price: PriceByCurrency;
   imageUrl: string;
 }
 
-export default function LatestCollectionsCard({
-  name,
-  price,
-  imageUrl,
-}: CollectionsCardProps) {
+export default function LatestCollectionsCard({ name, price, imageUrl }: CollectionsCardProps) {
   const t = useTranslations('buttonLabels');
+  const dispatch = useDispatch();
+  const getPrice = usePrice();
+  const formatted = getPrice.format(price);
   return (
     <div>
       <div className="relative w-64 rounded-3xl shadow-sm group transition-all duration-300 ease-out hover:scale-105">
@@ -32,7 +42,7 @@ export default function LatestCollectionsCard({
         />
         <div className="text-center pb-3">
           <h2 className="text-2xl font-semibold font-eb-garamond">{name}</h2>
-          <span className="text-gray-600">{price}</span>
+          <span className="text-gray-600">{formatted}</span>
         </div>
         <div
           className="flex items-center justify-center gap-3 font-inter
