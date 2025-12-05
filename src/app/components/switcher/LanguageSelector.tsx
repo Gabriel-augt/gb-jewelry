@@ -53,7 +53,7 @@ export default function LanguageSelector() {
       ${open ? "w-28 opacity-100" : "w-0 opacity-0"}`}>
         <div className="px-4 py-3 space-y-3">
           <div>
-            <p className="text-xs text-gray-400 mb-1">Idioma</p>
+            <p className="text-xs text-gray-300 mb-1">Idioma</p>
             <ul className="space-y-1">
               {languages.map((lang) => (
                 <li

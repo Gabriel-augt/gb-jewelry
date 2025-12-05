@@ -1,12 +1,18 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+interface PriceByCurrency {
+  priceBRL: number;
+  priceUSD: number;
+  priceEUR: number;
+}
+
 type Item = {
   id: number;
   name: string;
-  price: number;
+  price: PriceByCurrency;
   imageUrl: string;
-  favorite: boolean;
-  cart: boolean;
+  favorite?: boolean;
+  cart?: boolean;
   quantity: number;
 };
 

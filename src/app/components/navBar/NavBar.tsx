@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { ChevronDown, Gem, Handbag, Heart } from "lucide-react";
+import { ChevronDown, Gem } from "lucide-react";
 import NavBarItem from "./NavBarItem";
 import DropdownItem from "./DropdownItem";
 import { useTranslations } from "next-intl";
+import NavBarIcons from "./NavbarIcons";
 
 export default function NavBar() {
   const t = useTranslations('homePage');
@@ -70,14 +71,7 @@ export default function NavBar() {
           </NavBarItem>
         </ul>
 
-        <div className="inline-flex gap-7">
-          <Link href="/fav">
-          <Heart />
-          </Link>
-          <Link href="/cart">
-          <Handbag />
-          </Link>
-        </div>
+        <NavBarIcons />
       </div>
     </nav>
   );

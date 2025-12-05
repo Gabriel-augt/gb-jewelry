@@ -48,7 +48,7 @@ export default function ShopCard({ id, name, price, imageUrl }: ShopCardProps) {
           <span className="text-gray-600">{formatted}</span>
         </div>
         <button className="flex items-center justify-center gap-3 font-inter rounded-b-3xl h-16 bg-black text-white cursor-pointer w-full"
-        onClick={() => dispatch(addItem({id, name, price, imageUrl, favorite: false, cart: true}))}>
+        onClick={() => dispatch(addItem({id, name, price, formatted, imageUrl, cart: true}))}>
             <ShoppingCart strokeWidth={1.5} stroke="#fff" />
             <span>{t('addToCart')}</span>
         </button>

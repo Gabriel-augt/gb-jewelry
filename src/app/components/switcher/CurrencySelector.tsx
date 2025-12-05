@@ -37,7 +37,7 @@ export default function CurrencySwitcher() {
   return (
     <div>
       <p className="text-xs text-gray-400 mb-1">Moeda</p>
-      <ul className="space-y-1">
+      <ul className="space-y-1 w-20">
         {currencies.map((c) => (
           <li
             key={c}

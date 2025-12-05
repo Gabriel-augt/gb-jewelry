@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Gem, Menu, X, ChevronDown, Heart, Handbag } from "lucide-react";
 import NavBarItem from "./NavBarItem";
 import { useTranslations } from "next-intl";
+import NavBarIcons from "./NavbarIcons";
 
 export default function NavbarMobile() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,10 +31,7 @@ export default function NavbarMobile() {
           </div>
         </Link>
 
-        <div className="inline-flex gap-6">
-          <Heart />
-          <Handbag />
-        </div>
+        <NavBarIcons />
       </div>
 
       <div className={`min-md:hidden bg-white overflow-hidden transition-all duration-300 ease-in-out 
