@@ -15,17 +15,22 @@ export function usePrice() {
   const locale =
     currency === "BRL" ? "pt-BR" : currency === "USD" ? "en-US" : "es-ES";
 
-  function format(price: PriceObject) {
+  function format(price: number | PriceObject) {
     const value =
-      currency === "BRL"
+      typeof price === "number"
+        ? price
+        : currency === "BRL"
         ? price.priceBRL
         : currency === "USD"
         ? price.priceUSD
         : price.priceEUR;
 
+    const currencyCode =
+      currency === "BRL" ? "BRL" : currency === "USD" ? "USD" : "EUR";
+
     return new Intl.NumberFormat(locale, {
       style: "currency",
-      currency,
+      currency: currencyCode,
     }).format(value);
   }
 
