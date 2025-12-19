@@ -19,7 +19,10 @@
     },
     "buttonLabels": {
         "explore": "Explorar",
-        "addToCart": "Adicionar ao carrinho"
+        "addToCart": "Adicionar ao carrinho",
+        "returnHomePage": "Voltar para o início",
+        "removeAll": "Remover tudo",
+        "checkout": "Fazer Checkout"
     },
     "hero": {
         "titleHero": "Sinta o Glamour",
@@ -64,5 +67,38 @@
         "altImageOne": "Mulher com brinco e colar de ouro",
         "altImageTwo": "Pulseira com cristais"
     },
-    "altFlowerDesign": "Design de flores"
+    "altFlowerDesign": "Design de flores",
+    "cart": {
+        "shoppingCart": "Carrinho de Compras",
+        "items": "Itens",
+        "specialInstructions": {
+            "titleInstructions": "Instruções Especiais",
+            "optionalNote": "Adicione uma nota ao seu pedido (opcional)",
+            "textAreaPlaceholder": "Quaisquer pedidos especiais, mensagens para presentes ou instruções de embalagem...",
+            "examplesMessages": {
+                "pt1": "Exemplos:",
+                "pt2": "Manuseie com cuidado extra",
+                "pt3": "Este é um presente para minha mãe"
+            }
+        },
+        "promotionalCode": {
+            "titlePromo": "Código Promocional",
+            "couponPlaceholder": "Insira o código promocional",
+            "apply": "Aplicar"
+        },
+        "orderSummary": {
+            "titleSummary": "Resumo de Pedido",
+            "subtotal": "Subtotal",
+            "discount": "Desconto",
+            "tax": "Imposto",
+            "shipping": "Frete",
+            "total": "Total"
+        },
+        "trustBadges": {
+            "freeShipping": "Transporte 24h",
+            "freeShippingContent": "Pedido monitorado",
+            "safePackaging": "Embalagem segura",
+            "safePackagingContent": "Obra de arte embalada com segurança e segurada."
+        }
+    }
 }

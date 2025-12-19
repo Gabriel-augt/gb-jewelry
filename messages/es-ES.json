@@ -19,7 +19,10 @@
     },
     "buttonLabels": {
         "explore": "Explorar",
-        "addToCart": "Añadir al carrito"
+        "addToCart": "Añadir al carrito",
+        "returnHomePage": "Volver al inicio",
+        "removeAll": "Eliminar todo",
+        "checkout": "Hacer Checkout"
     },
     "hero": {
         "titleHero": "Siente el glamour",
@@ -64,5 +67,38 @@
         "altImageOne": "Mujer con pendientes y collar de oro",
         "altImageTwo": "Pulsera con cristales"
     },
-    "altFlowerDesign": "Diseño de flores"
+    "altFlowerDesign": "Diseño de flores",
+    "cart": {
+        "shoppingCart": "Carrito de compras",
+        "items": "Artículos",
+        "specialInstructions": {
+            "titleInstructions": "Instrucciones Especiales",
+            "optionalNote": "Añade una nota a tu pedido (opcional)",
+            "textAreaPlaceholder": "Cualquier pedido especial, mensajes para regalos o instrucciones de embalaje...",
+            "examplesMessages": {
+                "pt1": "Ejemplos:",
+                "pt2": "Manipular con especial cuidado",
+                "pt3": "Este es un regalo para mi madre"
+            }
+        },
+        "promotionalCode": {
+            "titlePromo": "Código Promocional",
+            "couponPlaceholder": "Introduzca el código promocional",
+            "apply": "Aplicar"
+        },
+        "orderSummary": {
+            "titleSummary": "Resumen del pedido",
+            "subtotal": "Subtotal",
+            "discount": "Descuento",
+            "tax": "Impuesto",
+            "shipping": "Envío",
+            "total": "Total"
+        },
+        "trustBadges": {
+            "freeShipping": "Transporte 24h",
+            "freeShippingContent": "Orden monitoreada",
+            "safePackaging": "Embalaje seguro",
+            "safePackagingContent": "Obra de arte embalada de forma segura y asegurada."
+        }
+    }
 }

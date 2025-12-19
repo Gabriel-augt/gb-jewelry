@@ -19,7 +19,10 @@
     },
     "buttonLabels": {
         "explore": "Explore",
-        "addToCart": "Add to cart"
+        "addToCart": "Add to cart",
+        "returnHomePage": "Return to home page",
+        "removeAll": "Remove all",
+        "checkout": "Proceed to Checkout"
     },
     "hero": {
         "titleHero": "Feel the Glamour",
@@ -64,5 +67,38 @@
         "altImageOne": "Woman with gold earrings and necklace",
         "altImageTwo": "Bracelet with crystals"
     },
-    "altFlowerDesign": "Flower design"
+    "altFlowerDesign": "Flower design",
+    "cart": {
+        "shoppingCart": "Shopping Cart",
+        "items": "Items",
+        "specialInstructions": {
+            "titleInstructions": "Special Instructions",
+            "optionalNote": "Add a note to your order (optional)",
+            "textAreaPlaceholder": "Any special requests, gift messages or packaging instructions...",
+            "examplesMessages": {
+                "pt1": "Examples:",
+                "pt2": "Handle with extra care",
+                "pt3": "This is a gift for my mother"
+            }
+        },
+        "promotionalCode": {
+            "titlePromo": "Promotional Code",
+            "couponPlaceholder": "Enter promotional code",
+            "apply": "Apply"
+        },
+        "orderSummary": {
+            "titleSummary": "Order Summary",
+            "subtotal": "Subtotal",
+            "discount": "Discount",
+            "tax": "Tax",
+            "shipping": "Shipping",
+            "total": "Total"
+        },
+        "trustBadges": {
+            "freeShipping": "Around-the-clock",
+            "freeShippingContent": "Monitored order",
+            "safePackaging": "Safe packaging",
+            "safePackagingContent": "Artwork safely packaged and insured."
+        }
+    }
 }
