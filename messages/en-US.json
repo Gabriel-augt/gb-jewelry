@@ -81,6 +81,10 @@
                 "pt3": "This is a gift for my mother"
             }
         },
+        "emptyCart": {
+            "tittleEmptyCart": "Empty Cart",
+            "emptyCartContent": "Start adding items to enjoy shopping!"
+        },
         "promotionalCode": {
             "titlePromo": "Promotional Code",
             "couponPlaceholder": "Enter promotional code",

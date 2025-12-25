@@ -12,11 +12,15 @@ import { usePrice } from "@/hooks/usePrice";
 import Instructions from "@/app/components/cart/Instructions";
 import ReturnHomePage from "@/app/components/cart/ReturnHomePage";
 import CounterRemove from "@/app/components/cart/CounterRemove";
+import EmptyCart from "@/app/components/cart/EmptyCart";
 
 export default function CartPage() {
   const cartItems = useSelector((state: any) => state.selectedItems.selectedItems);
   const dispatch = useDispatch();
   const { formatWithQuantity } = usePrice();
+    if (cartItems.length === 0) {
+    return <EmptyCart />;
+  }
   return (
     <div className="flex flex-row w-screen min-h-screen justify-center gap-6
     max-lg:flex-col max-lg:items-center max-lg:gap-0">
