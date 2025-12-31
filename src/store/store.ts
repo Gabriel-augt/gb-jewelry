@@ -3,6 +3,7 @@ import selectedItemsSlice from "./selectedItemsSlice";
 import localeReducer from "./localeSlice";
 import currencyReducer from "./currencySlice";
 import couponReducer from "./couponSlice";
+import favoritesReducer from "./favoritesSlice";
 
 export const store = configureStore({
   reducer: {
@@ -10,6 +11,7 @@ export const store = configureStore({
     locale: localeReducer,
     currency: currencyReducer,
     coupon: couponReducer,
+    favorites: favoritesReducer,
   },
 });
 

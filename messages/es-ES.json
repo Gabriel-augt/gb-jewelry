@@ -21,6 +21,8 @@
         "explore": "Explorar",
         "addToCart": "Añadir al carrito",
         "returnHomePage": "Volver al inicio",
+        "goToFavorites": "Ir a favoritos",
+        "goToCart": "Ir al carrito",
         "removeAll": "Eliminar todo",
         "checkout": "Hacer Checkout"
     },
@@ -70,7 +72,7 @@
     "altFlowerDesign": "Diseño de flores",
     "cart": {
         "shoppingCart": "Carrito de compras",
-        "items": "Artículos",
+        "item": "Artículo",
         "specialInstructions": {
             "titleInstructions": "Instrucciones Especiales",
             "optionalNote": "Añade una nota a tu pedido (opcional)",
@@ -82,7 +84,7 @@
             }
         },
         "emptyCart": {
-            "tittleEmptyCart": "Carrito Vacío",
+            "tittleEmptyCart": "Carrito vacío",
             "emptyCartContent": "¡Empiece a añadir artículos para disfrutar de las compras!"
         },
         "promotionalCode": {
@@ -103,6 +105,13 @@
             "freeShippingContent": "Orden monitoreada",
             "safePackaging": "Embalaje seguro",
             "safePackagingContent": "Obra de arte embalada de forma segura y asegurada."
+        }
+    },
+    "favorites": {
+        "yourFavorites": "Tus favoritos",
+        "emptyFavorites": {
+            "tittleEmptyFavorites": "Sin favoritos",
+            "emptyFavoritesContent": "No has seleccionado ningún favorito, ¡vuelve más tarde!"
         }
     }
 }

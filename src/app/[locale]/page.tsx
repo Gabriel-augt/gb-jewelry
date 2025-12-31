@@ -6,7 +6,6 @@ import LatestCollections from "../components/latestCollections/LatestCollections
 import OneAndOnly from "../components/oneAndOnly/OneAndOnly";
 import Shop from "../components/shop/Shop";
 import FindUs from "../components/findUs/FindUs";
-import SubscribeEmail from "../components/subscribeEmail/SubscribeEmail";
 import Footer from "../components/footer/Footer";
 import Switchers from "../components/switcher/Switchers";
 
@@ -22,7 +21,6 @@ export default function Home() {
       <OneAndOnly />
       <Shop />
       <FindUs />
-      <SubscribeEmail />
       <Footer />
     </div>
   );

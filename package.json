@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.0",
+    "@types/aos": "^3.0.7",
     "@types/react-redux": "^7.1.34",
+    "aos": "^2.3.4",
     "lucide-react": "^0.544.0",
-    "next": "15.5.4",
+    "next": "^15.5.9",
     "next-intl": "^4.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",

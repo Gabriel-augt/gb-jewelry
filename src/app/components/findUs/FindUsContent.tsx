@@ -6,9 +6,12 @@ export default function FindUsContent() {
   const t = useTranslations("contact");
   return (
     <section className="flex flex-row items-center justify-center gap-56
-    w-full h-max py-20 max-xl:flex-col-reverse max-xl:gap-12" >
+    w-full h-max py-20 max-xl:flex-col-reverse max-xl:gap-12 overflow-x-hidden">
       <FindUsFlowerDesign />
-      <div className="relative -translate-x-14">
+      <div className="relative -translate-x-14"
+      data-aos="fade-right"
+      data-aos-duration="1500"
+      data-aos-anchor-placement="center-bottom">
         <Image
           className="rounded-lg rounded-br-[120px] shadow-xl max-md:w-64 max-sm:w-52"
           src={"/find-us-1.png"}
@@ -25,7 +28,10 @@ export default function FindUsContent() {
           height={300}
         />
       </div>
-      <div className="flex flex-col gap-4 px-6">
+      <div className="flex flex-col gap-4 px-6"
+      data-aos="fade-left"
+      data-aos-duration="1500"
+      data-aos-anchor-placement="center-bottom">
         <h2 className="font-inter font-light text-lg">
           {t('getinTouch')}
         </h2>

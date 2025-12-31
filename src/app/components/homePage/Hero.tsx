@@ -8,7 +8,9 @@ export default function Hero() {
   return (
     <main className="inline-flex items-center justify-evenly h-screen w-full gap-16
     max-xl:flex-col max-xl:justify-center min-xl:gap-28 max-md:h-[860px]">
-      <div className="flex flex-col text-black w-max px-6 max-sm:w-full">
+      <div className="flex flex-col text-black w-max px-6 max-sm:w-full"
+      data-aos="zoom-in-up"
+      data-aos-duration="1500">
         <h1 className="text-7xl font-cormorant font-semibold uppercase text-shadow-md
         w-[500px] max-sm:text-5xl min-lg:text-8xl max-sm:w-62">
           {t('titleHero')}
@@ -21,8 +23,11 @@ export default function Hero() {
         <HeroButton />
       </div>
       <div className="inline-flex gap-6 max-sm:gap-3">
-        <div className="relative w-44 h-96 translate-y-20 min-md:w-60
-        min-md:h-96 min-xl:w-[364px] min-xl:h-[600px] max-sm:h-80 max-[390px]:w-36">
+        <div className="relative w-44 h-96 translate-y-20 min-md:w-60 min-md:h-96
+        min-xl:w-[364px] min-xl:h-[600px] max-sm:h-80 max-[390px]:w-36"
+        data-aos="fade-up"
+        data-aos-delay="300"
+        data-aos-duration="2000">
         <Image
           className="object-cover"
           src="/hero-2.jpg"
@@ -31,7 +36,9 @@ export default function Hero() {
         />
       </div>
       <div className="relative w-44 h-96 min-md:w-60 min-md:h-96
-      min-xl:w-[364px] min-xl:h-[600px] max-sm:h-80 max-[390px]:w-36">
+      min-xl:w-[364px] min-xl:h-[600px] max-sm:h-80 max-[390px]:w-36"
+      data-aos="fade-down"
+      data-aos-duration="2000">
         <Image
           className="object-cover"
           src="/hero-1.jpg"

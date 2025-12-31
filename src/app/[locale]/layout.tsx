@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { ReduxProvider } from "@/providers/ReduxProvider";
 import LocaleProvider from "@/providers/LocaleProvider";
+import AOSProvider from "@/providers/AOSProvider";
 
 const cormorant = Cormorant_Upright({
   subsets: ["latin"],
@@ -52,7 +53,10 @@ export default async function RootLayout({
       <body className={`${cormorant.variable} ${garamond.variable} ${inter.variable}`}>
         <ReduxProvider>
           <NextIntlClientProvider>
-            <LocaleProvider>{children}</LocaleProvider>
+            <LocaleProvider>
+              {children}
+              <AOSProvider />
+            </LocaleProvider>
           </NextIntlClientProvider>
         </ReduxProvider>
       </body>

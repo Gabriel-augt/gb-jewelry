@@ -42,7 +42,9 @@ export default function LanguageSelector() {
       className="fixed right-0 top-12 z-50 flex items-center"
       onClick={handleToggle}
       onMouseEnter={() => !isMobile && setOpen(true)}
-      onMouseLeave={() => !isMobile && setOpen(false)}>
+      onMouseLeave={() => !isMobile && setOpen(false)}
+      data-aos="fade-left"
+      data-aos-delay="700">
       <button className={`flex items-center justify-center bg-gray-800 text-white
       p-2 rounded-l-full transition-all duration-300 hover:bg-gray-700
       ${open ? "-translate-x-1" : ""}`}>

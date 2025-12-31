@@ -23,8 +23,10 @@ export default function CartPage() {
   }
   return (
     <div className="flex flex-row w-screen min-h-screen justify-center gap-6
-    max-lg:flex-col max-lg:items-center max-lg:gap-0">
-      <div className="flex flex-col items-center">
+    max-lg:flex-col max-lg:items-center max-lg:gap-0 overflow-x-hidden">
+      <div className="flex flex-col items-center"
+      data-aos="fade-right"
+      data-aos-duration="1300">
         <ReturnHomePage />
         <CounterRemove />
         <div className="flex flex-col min-md:md:flex-row min-md:items-start min-md:justify-center
@@ -69,7 +71,9 @@ export default function CartPage() {
         </div>
         <Instructions />
       </div>
-      <div className="flex flex-col gap-6 min-lg:pt-32 max-lg:pb-12">
+      <div className="flex flex-col gap-6 overflow-x-hidden min-lg:pt-32 max-lg:pb-12"
+      data-aos="fade-left"
+      data-aos-duration="1300">
         <Promo />
         <OrderSummary />
         <TrustBadges />

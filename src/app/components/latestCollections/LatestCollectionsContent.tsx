@@ -13,9 +13,12 @@ export default function LatestCollectionsontent() {
   const firsBracelet = bracelets[0];
   const t = useTranslations('bestsellers');
   return (
-    <div className="flex flex-col items-center justify-center w-full h-max py-20 gap-20">
+    <div className="flex flex-col items-center justify-center w-full h-max py-20 gap-20 overflow-x-hidden">
       <LatestCollectionsFlowerDesign /> 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4"
+      data-aos="fade-down"
+      data-aos-duration="1500"
+      data-aos-anchor-placement="center-bottom">
         <h2 className="font-inter font-light text-lg">
           {t('latestCollection')}
         </h2>
@@ -23,11 +26,14 @@ export default function LatestCollectionsontent() {
           {t('titleBestsellers')}
         </h1>
       </div>
-      <section className="flex flex-row justify-center gap-16 mx-6 max-xl:w-[620px] max-xl:flex-wrap max-sm:w-auto">
-        <LatestCollectionsCard name={firstRing.name} price={firstRing.price} imageUrl={firstRing.image} />
-        <LatestCollectionsCard name={firstNecklace.name} price={firstNecklace.price} imageUrl={firstNecklace.image} />
-        <LatestCollectionsCard name={firstEarring.name} price={firstEarring.price} imageUrl={firstEarring.image} />
-        <LatestCollectionsCard name={firsBracelet.name} price={firsBracelet.price} imageUrl={firsBracelet.image} />
+      <section className="flex flex-row justify-center gap-16 mx-6 max-xl:w-[620px] max-xl:flex-wrap max-sm:w-auto"
+      data-aos="zoom-in-up"
+      data-aos-duration="1500"
+      data-aos-anchor-placement="top-bottom">
+        <LatestCollectionsCard id={firstRing.id} name={firstRing.name} price={firstRing.price} imageUrl={firstRing.image} />
+        <LatestCollectionsCard id={firstNecklace.id} name={firstNecklace.name} price={firstNecklace.price} imageUrl={firstNecklace.image} />
+        <LatestCollectionsCard id={firstEarring.id} name={firstEarring.name} price={firstEarring.price} imageUrl={firstEarring.image} />
+        <LatestCollectionsCard id={firsBracelet.id} name={firsBracelet.name} price={firsBracelet.price} imageUrl={firsBracelet.image} />
       </section>
     </div>
   );

@@ -5,8 +5,11 @@ import { useTranslations } from "next-intl";
 export default function AboutContent () {
     const t = useTranslations('about');
     return (
-        <section className="flex flex-row items-center justify-center gap-12 w-full h-max pb-20 pt-40 max-xl:flex-col">
-            <div className="flex flex-col gap-4 px-6">
+        <section className="flex flex-row items-center justify-center gap-12 w-full h-max pb-20 pt-40 max-xl:flex-col overflow-x-hidden">
+            <div className="flex flex-col gap-4 px-6"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-anchor-placement="center-bottom">
                 <h2 className="font-inter font-light text-lg">
                     {t('aboutUs')}
                 </h2>
@@ -18,7 +21,10 @@ export default function AboutContent () {
                 </p>
                 <AboutButton />
             </div>
-            <div className="relative max-[500px]:translate-x-11">
+            <div className="relative max-[500px]:translate-x-11"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-anchor-placement="center-bottom">
                 <Image className="rounded-lg rounded-br-[120px] shadow-xl
                 max-md:w-64 max-sm:w-56" src={"/about-1.png"}
                 alt={t('altImageOne')} width={360} height={600}/>

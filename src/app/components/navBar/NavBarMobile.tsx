@@ -13,8 +13,9 @@ export default function NavbarMobile() {
   const t = useTranslations('homePage');
 
   return (
-    <nav
-      className="fixed w-full z-50 backdrop-blur-3xl min-md:invisible font-cormorant">
+    <nav className="fixed w-full z-50 backdrop-blur-3xl min-md:invisible font-cormorant"
+    data-aos="fade-down"
+    data-aos-delay="400">
       <div className="flex items-center justify-between px-6 py-3">
 
         <button className="min-md:hidden text-gray-700"onClick={() => setMenuOpen(!menuOpen)}>
@@ -23,8 +24,9 @@ export default function NavbarMobile() {
 
         <Link href="/" className="text-xl font-semibold text-gray-800">
           <div className="inline-flex justify-center items-center gap-1">
-            <Gem strokeWidth={1} size={32} />
-
+            <Gem strokeWidth={1} size={32}
+            data-aos="flip-right"
+            data-aos-delay="1700" />
             <span className="font-eb-garamond text-base leading-4">
               GB <br /> Jewelry
             </span>
@@ -49,43 +51,15 @@ export default function NavbarMobile() {
             </Link>
           </NavBarItem>
           <NavBarItem>
+            <Link href={`#${t('anchors.shopAnchor')}`} onClick={() => setMenuOpen(false)}>
+              {t('navBar.shop')}
+            </Link>
+          </NavBarItem>
+          <NavBarItem>
             <Link href={`#${t('anchors.contactAnchor')}`} onClick={() => setMenuOpen(false)}>
               {t('navBar.contact')}
             </Link>
           </NavBarItem>
-
-          <li>
-            <button className="flex items-center justify-between w-full"
-              onClick={() => setDropdownOpen(!dropdownOpen)}>
-              {t('navBar.shop')}
-              <ChevronDown size={18} className={`transition-transform duration-300 
-              ${ dropdownOpen ? "rotate-180" : "" }`} />
-            </button>
-
-            <ul className={`pl-4 mt-2 flex flex-col space-y-6 transition-all duration-300 ease-in-out
-            ${ dropdownOpen ? "h-max opacity-100" : "max-h-0 opacity-0" }`}>
-              <NavBarItem>
-                <Link href="#" onClick={() => setMenuOpen(false)}>
-                  {t('navBar.ring')}
-                </Link>
-              </NavBarItem>
-              <NavBarItem>
-                <Link href="#" onClick={() => setMenuOpen(false)}>
-                  {t('navBar.necklace')}
-                </Link>
-              </NavBarItem>
-              <NavBarItem>
-                <Link href="#" onClick={() => setMenuOpen(false)}>
-                  {t('navBar.earring')}
-                </Link>
-              </NavBarItem>
-              <NavBarItem>
-                <Link href="#" onClick={() => setMenuOpen(false)}>
-                  {t('navBar.bracelet')}
-                </Link>
-              </NavBarItem>
-            </ul>
-          </li>
         </ul>
       </div>
     </nav>

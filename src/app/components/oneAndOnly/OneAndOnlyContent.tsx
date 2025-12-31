@@ -7,9 +7,12 @@ export default function OneAndOnlyContent() {
   const t = useTranslations('firstAndOnly');
   return (
     <section className="flex flex-row items-center justify-center gap-56 w-full h-max
-    py-20 max-xl:flex-col-reverse max-xl:gap-12">
+    py-20 max-xl:flex-col-reverse max-xl:gap-12 overflow-x-hidden">
       <OneOnlyFlowerDesign />
-      <div className="relative max-xl:-translate-x-7 max-sm:-translate-x-16">
+      <div className="relative max-xl:-translate-x-7 max-sm:-translate-x-16"
+      data-aos="fade-right"
+      data-aos-duration="1500"
+      data-aos-anchor-placement="center-bottom">
         <Image className="rounded-lg rounded-br-[120px] shadow-xl max-md:w-64 max-sm:w-56"
           src={"/one-only-1.png"} alt={t('altImageOne')} width={360} height={600}/>
         <Image
@@ -17,7 +20,10 @@ export default function OneAndOnlyContent() {
           max-md:w-72 max-md:h-40 min-md:h-60 max-md:-translate-y-52 max-md:translate-x-28"
           src={"/one-only-2.png"} alt={t('altImageTwo')} width={400} height={300} />
       </div>
-      <div className="flex flex-col gap-4 px-6">
+      <div className="flex flex-col gap-4 px-6"
+      data-aos="fade-left"
+      data-aos-duration="1500"
+      data-aos-anchor-placement="center-bottom">
         <h2 className="font-inter font-light text-lg">{t('firstOnly')}</h2>
         <h1 className="font-eb-garamond text-5xl max-sm:text-3xl min-sm:w-[420px]">
           {t('titleFirstAndOnly')}

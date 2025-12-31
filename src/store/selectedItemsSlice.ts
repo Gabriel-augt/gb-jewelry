@@ -11,8 +11,6 @@ type Item = {
   name: string;
   price: PriceByCurrency;
   imageUrl: string;
-  favorite?: boolean;
-  cart?: boolean;
   quantity: number;
 };
 

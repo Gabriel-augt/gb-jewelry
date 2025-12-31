@@ -54,13 +54,16 @@ export default function Carousel({ category = "ring" }: CarouselProps) {
   const translate = `translateX(-${index * stepPercent}%)`;
 
   return (
-    <div className="relative flex flex-row items-center w-screen mx-auto min-[900px]:max-w-4xl">
+    <div className="relative flex flex-row items-center w-screen mx-auto min-[900px]:max-w-4xl overflow-x-hidden">
       <button
         onClick={prev}
         disabled={index === 0}
         aria-label="Anterior"
         className="p-2 h-10 rounded-full shadow-md disabled:opacity-40 max-[900px]:translate-x-48
-        max-md:translate-x-32 max-sm:translate-x-8 max-[395px]:-translate-y-12 z-10">
+        max-md:translate-x-32 max-sm:translate-x-8 max-[395px]:-translate-y-12 z-10"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-anchor-placement="top-bottom">
         <ChevronLeft />
       </button>
 
@@ -91,7 +94,10 @@ export default function Carousel({ category = "ring" }: CarouselProps) {
         disabled={index === maxIndex}
         aria-label="Próximo"
         className="p-2 h-10 rounded-full shadow-md disabled:opacity-40 max-[900px]:-translate-x-48
-        max-md:-translate-x-32 max-sm:-translate-x-8 max-[395px]:-translate-y-12 z-10">
+        max-md:-translate-x-32 max-sm:-translate-x-8 max-[395px]:-translate-y-12 z-10"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+        data-aos-anchor-placement="top-bottom">
         <ChevronRight />
       </button>
     </div>

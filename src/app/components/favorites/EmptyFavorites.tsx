@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import ReturnHomePageEmpty from "./ReturnHomePageEmpty";
-import GoToFavorites from "./GoToFavorites";
+import GoToCart from "./GoToCart";
+import ReturnHomePageEmpty from "../cart/ReturnHomePageEmpty";
 
-export default function EmptyCart() {
-  const t = useTranslations('cart.emptyCart');
+export default function EmptyFavorites() {
+  const t = useTranslations('favorites.emptyFavorites');
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen font-eb-garamond overflow-x-hidden"
     data-aos="zoom-out"
@@ -12,19 +12,19 @@ export default function EmptyCart() {
       <div className="relative">
         <Image
           className="object-cover"
-          src="/empty-cart.svg"
+          src="/empty-favorites.svg"
           alt=""
           width={360}
           height={360}
         />
       </div>
       <div className="text-center mt-8">
-        <h1 className="text-4xl font-semibold py-1">{t('tittleEmptyCart')}</h1>
-        <p className="text-lg max-sm:text-sm">{t('emptyCartContent')}</p>
+        <h1 className="text-4xl font-semibold py-1">{t('tittleEmptyFavorites')}</h1>
+        <p className="text-lg max-sm:text-sm">{t('emptyFavoritesContent')}</p>
       </div>
       <div className="flex">
         <ReturnHomePageEmpty />
-        <GoToFavorites />
+        <GoToCart />
       </div>
     </div>
   );
